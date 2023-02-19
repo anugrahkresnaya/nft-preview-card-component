@@ -24,6 +24,7 @@ img {
 
 .center-image {
   text-align: center;
+  position: relative;
 }
 
 .center-image img {
@@ -33,6 +34,11 @@ img {
 h1 {
   color: hsl(0, 0%, 100%);
   font-size: 21px;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 
 p {
@@ -98,3 +104,49 @@ hr {
 span {
   color: hsl(0, 0%, 100%);
 }
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.nft-image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.nft-overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(0,255,247, 0.5);
+}
+
+.center-image:hover .nft-overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.view-icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
