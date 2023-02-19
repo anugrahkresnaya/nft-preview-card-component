@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+html, body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+
+.card {
+  background: hsl(217, 50%, 16%);
+  width: fit-content;
+  margin: auto;
+  padding: 22px;
+  border-radius: 15px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.center-image {
+  text-align: center;
+}
+
+.center-image img {
+  border-radius: 10px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 21px;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+}
+
+.attribution {
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+  color: #4c00b0;
+  text-decoration: none;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eth {
+  display: flex;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.eth-icon {
+  width: 12px;
+  height: 18px;
+  margin-right: 7px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+}
+
+.clock {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile-image {
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+}
